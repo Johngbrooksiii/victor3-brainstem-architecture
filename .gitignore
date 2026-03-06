@@ -1,0 +1,35 @@
+# Rust build artifacts
+target/
+build/
+*.o
+*.so
+*.a
+*.rlib
+*.rmeta
+
+# Cargo
+Cargo.lock
+.cargo/
+
+# Logs
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Secrets / keys
+*.key
+*.pem
+*.crt
+
+# Local environment
+.env
+.env.*
+
+# Termux / Android noise
+cache/
+*.apk
